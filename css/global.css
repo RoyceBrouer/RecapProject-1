@@ -9,6 +9,7 @@
   --secondary-color: rgb(0, 255, 0);
   /* --gap: 20px; */
   --font-color: white;
+  --font-for-all: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {

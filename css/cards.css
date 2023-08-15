@@ -22,6 +22,7 @@
   border: 15px solid white;
   width: 70vw;
   height: 30vh;
+  position: relative;
 }
 
 .cards--secondary {
@@ -30,6 +31,7 @@
   border: 15px solid white;
   width: 70vw;
   height: 30vh;
+  position: relative;
 }
 
 /* .card--primary,
@@ -38,5 +40,10 @@
 } */
 
 .button {
-  align-self: center;
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+  padding: 1%;
+  border-radius: 20%;
+  background-color: white;
 }

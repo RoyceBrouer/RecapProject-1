@@ -1,9 +1,22 @@
 h1 {
   color: var(--font-color);
-  align-self: center;
+  font-size: 15vw;
+  font-family: var(--font-for-all);
 }
 
-p,
+p {
+  font-family: var(--font-for-all);
+  color: var(--font-color);
+}
+
 a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rebeccapurple;
+  /* font-style: bold; */
+  font-size: 3vw;
+  text-decoration: none;
+}
+
+.link {
   color: var(--font-color);
 }
