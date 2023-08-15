@@ -1,0 +1,21 @@
+.cards {
+  display: flex;
+  position: relative;
+  /* only one or the other? */
+  width: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card__text {
+  height: 30%;
+  padding: 10%;
+}
+
+.card--primary {
+  background-image: url("../images/tyler-b-72vLY-QMd3w-unsplash.jpg");
+}
+
+.card--secondary {
+  background-image: ;
+}

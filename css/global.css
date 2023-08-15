@@ -1,0 +1,17 @@
+* {
+  box-sizing: borderbox;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(0, 255, 0);
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/justin-clark-H7JiEU8Slnw-unsplash.jpg");
+  background-size: 100%;
+}
