@@ -1,21 +1,37 @@
 .cards {
+  /* background-color: red; */
   display: flex;
-  position: relative;
+  /* position: relative; */
   /* only one or the other? */
-  width: 100vh;
+  /* width: 100%; */
   flex-direction: column;
-  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  /* height: 100vh; */
 }
 
-.card__text {
+/* .card__text {
   height: 30%;
   padding: 10%;
-}
+} */
 
 .card--primary {
   background-image: url("../images/tyler-b-72vLY-QMd3w-unsplash.jpg");
+  min-width: 70%;
+  border: 20px solid red;
 }
 
 .card--secondary {
-  background-image: ;
+  background-image: url("../images/david-clode-J1E6XzW1INk-unsplash.jpg");
+  min-width: 70%;
+  border: 20px solid red;
+}
+
+/* .card--primary,
+.card--secondary {
+  display: flex;
+} */
+
+.button {
+  align-self: center;
 }
