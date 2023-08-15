@@ -24,3 +24,8 @@ a {
 p {
   font-size: 3vw;
 }
+
+tag {
+  font-size: 2vh;
+  color: var(--font-color);
+}

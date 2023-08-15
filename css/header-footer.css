@@ -9,9 +9,15 @@ header {
   height: 15vh;
 }
 
+main {
+  margin-bottom: 10vh;
+}
+
 footer {
   position: fixed;
-  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   bottom: 0;
   background-color: var(--secondary-color);
   width: 100%;
@@ -19,7 +25,7 @@ footer {
 }
 
 .nav {
-  position: absolute;
+  /* position: absolute; */
   height: 100%;
   width: 100%;
   display: flex;
