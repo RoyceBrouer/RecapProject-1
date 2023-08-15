@@ -1,11 +1,12 @@
 .cards {
   /* background-color: red; */
   display: flex;
+  height: 75vh;
   /* position: relative; */
   /* only one or the other? */
   /* width: 100%; */
   flex-direction: column;
-  justify-items: center;
+  justify-content: space-around;
   align-items: center;
   /* height: 100vh; */
 }
@@ -15,16 +16,20 @@
   padding: 10%;
 } */
 
-.card--primary {
+.cards--primary {
   background-image: url("../images/tyler-b-72vLY-QMd3w-unsplash.jpg");
-  min-width: 70%;
-  border: 20px solid red;
+  background-size: 100%;
+  border: 15px solid white;
+  width: 70vw;
+  height: 30vh;
 }
 
-.card--secondary {
+.cards--secondary {
   background-image: url("../images/david-clode-J1E6XzW1INk-unsplash.jpg");
-  min-width: 70%;
-  border: 20px solid red;
+  background-size: 100%;
+  border: 15px solid white;
+  width: 70vw;
+  height: 30vh;
 }
 
 /* .card--primary,
