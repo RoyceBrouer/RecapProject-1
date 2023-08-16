@@ -6,7 +6,12 @@ header {
   text-align: center;
   width: 100%;
   padding: auto;
-  height: 15vh;
+  /* height: 15vh; */
+  height: auto;
+}
+
+.snakeicon {
+  max-width: 5%;
 }
 
 main {

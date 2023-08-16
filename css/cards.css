@@ -1,15 +1,10 @@
 .cards {
-  /* background-color: red; */
   display: flex;
-  /* height: 75vh; */
-  /* position: relative; */
-  /* only one or the other? */
   /* width: 100%; */
   flex-direction: column;
   /* justify-content: space-around; */
   gap: 20vh;
   align-items: center;
-  /* height: 100vh; */
 }
 
 /* .card__text {
@@ -43,11 +38,6 @@
   height: 30vh;
   position: relative;
 }
-
-/* .card--primary,
-.card--secondary {
-  display: flex;
-} */
 
 .button {
   position: absolute;
