@@ -1,0 +1,22 @@
+* {
+  box-sizing: borderbox;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(0, 255, 0);
+  /* --gap: 20px; */
+  --font-color: white;
+  --font-for-all: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-image: url("../images/justin-clark-H7JiEU8Slnw-unsplash.jpg");
+  background-size: 100%;
+}
+
+.bodyprofile {
+  background: white;
+}

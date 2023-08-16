@@ -1,0 +1,85 @@
+.cards {
+  display: flex;
+  /* width: 100%; */
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 20vh;
+  align-items: center;
+}
+
+/* .card__text {
+  height: 30%;
+  padding: 10%;
+} */
+
+.cards--primary {
+  background-image: url("../images/tyler-b-72vLY-QMd3w-unsplash.jpg");
+  background-size: 100%;
+  border: 20px solid white;
+  width: 70vw;
+  height: 30vh;
+  position: relative;
+}
+
+.cards--secondary {
+  background-image: url("../images/david-clode-J1E6XzW1INk-unsplash.jpg");
+  background-size: 100%;
+  border: 20px solid white;
+  width: 70vw;
+  height: 30vh;
+  position: relative;
+}
+
+.cards--third {
+  background-image: url("../images/nivedh-p-sazD8ZHV_VI-unsplash.jpg");
+  background-size: 100%;
+  border: 20px solid white;
+  width: 70vw;
+  height: 30vh;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+  padding: 1%;
+  border-radius: 20%;
+  background-color: white;
+}
+
+p {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  /* height: 25%; */
+}
+
+.cardbookmark {
+  position: absolute;
+  top: -2vh;
+  right: -3vh;
+  height: 3vh;
+  z-index: 3;
+  color: red;
+}
+
+.tag--snappy {
+  position: absolute;
+  left: 5%;
+  bottom: 30%;
+  background-color: rgb(204, 150, 255);
+  height: 7%;
+  border-radius: 20%;
+  padding: 1%;
+}
+
+.tag--vicious {
+  position: absolute;
+  left: 10%;
+  bottom: 21%;
+  background-color: rgb(204, 150, 255);
+  height: 7%;
+  border-radius: 20%;
+  padding: 1%;
+}

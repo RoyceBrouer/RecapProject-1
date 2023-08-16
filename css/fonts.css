@@ -1,0 +1,31 @@
+h1 {
+  color: var(--font-color);
+  font-size: 10vh;
+  font-family: var(--font-for-all);
+}
+
+p {
+  font-family: var(--font-for-all);
+  color: var(--font-color);
+}
+
+a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rebeccapurple;
+  /* font-style: bold; */
+  font-size: 3vw;
+  text-decoration: none;
+}
+
+.link {
+  color: var(--font-color);
+}
+
+p {
+  font-size: 4vw;
+}
+
+tag {
+  font-size: 2vh;
+  color: var(--font-color);
+}
