@@ -1,4 +1,5 @@
 header {
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +9,7 @@ header {
   padding: auto;
   /* height: 15vh; */
   height: auto;
+  z-index: 3;
 }
 
 .snakeicon {

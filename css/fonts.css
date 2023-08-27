@@ -25,6 +25,11 @@ p {
   font-size: 4vw;
 }
 
+.card__answer {
+  font-size: 1.5vh;
+  color: var(--secondary-color);
+}
+
 tag {
   font-size: 2vh;
   color: var(--font-color);
