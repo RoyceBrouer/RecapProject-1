@@ -11,7 +11,25 @@
 } */
 
 .profile-frame {
-  width: 80vw;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.profile-snake {
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  transform: translate(-60%);
+  top: %;
+}
+
+.container-profile-frame {
+  /* display: flex;
+  justify-content: center; */
+  position: relative;
+  /* margin-top: 10%; */
 }
 
 /* create slider for toggle button  */
