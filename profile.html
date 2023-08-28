@@ -14,11 +14,18 @@
       </h1>
     </header>
     <main class="mainprofile">
-      <form class="form" action="/login.html" method="POST">
+      <form class="profileForm" action="/login.html" method="POST">
         <input type="text" value="my Username" name="username" />
         <input type="text" value="my favorite snake" name="snake" />
         <input type="text" value="My Password" name="password" />
       </form>
+      <section>
+        <img src="../images/frame.png" alt="" class="profile-frame" />
+      </section>
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider round"></span>
+      </label>
     </main>
     <footer>
       <nav class="nav">
@@ -34,6 +41,12 @@
           ><img
             class="nav-icons nav-icons--profile"
             src="../images/profile-user.png"
+        /></a>
+        <a
+          href="form.html"
+          class="link"
+          aria-label="click to form for creating questions"
+          ><img class="nav-icons nav-icons--form" src="../images/plus.png"
         /></a>
       </nav>
     </footer>

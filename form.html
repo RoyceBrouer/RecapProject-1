@@ -27,7 +27,11 @@
                 id="question"
                 class="input"
                 data-js="question"
+                maxlength="150"
               ></textarea>
+              <p class="characterCount">
+                <span data-js="charactersQuestion">150</span> characters left
+              </p>
             </fieldset>
             <fieldset class="fieldset">
               <label for="answer" class="inputLabel">Your Answer:</label>
@@ -37,7 +41,11 @@
                 id="answer"
                 class="input"
                 data-js="answer"
+                maxlength="150"
               ></textarea>
+              <p class="characterCount">
+                <span data-js="charactersAnswer">150</span> characters left
+              </p>
             </fieldset>
             <fieldset class="fieldset">
               <label for="tag" class="inputLabel">Tag:</label>
@@ -59,9 +67,7 @@
           </fieldset>
         </form>
       </section>
-      <section class="newCardsSection" data-js="newCardsSection">
-        <article><p>TEST</p></article>
-      </section>
+      <section class="newCardsSection" data-js="newCardsSection"></section>
     </main>
     <footer>
       <nav class="nav">

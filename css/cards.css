@@ -40,6 +40,16 @@
   position: relative;
 }
 
+.newCard {
+  background-image: url("../images/nivedh-p-sazD8ZHV_VI-unsplash.jpg");
+  background-size: 100%;
+  border: 20px solid white;
+  width: 70vw;
+  height: 30vh;
+  position: relative;
+  margin-top: 10%;
+}
+
 .button {
   position: absolute;
   right: 3%;
@@ -49,14 +59,16 @@
   background-color: white;
 }
 
-p {
+.card__text,
+.card__answer {
   position: absolute;
   left: 5%;
   top: 5%;
   /* height: 25%; */
 }
 
-.cards--primary--answer {
+.cards--primary--answer,
+.cards--new--answer {
   position: absolute;
   left: 5%;
   right: 50%;
@@ -73,7 +85,8 @@ p {
   /* background-color: black; */
 }
 
-.bookmarkbutton {
+.bookmarkbutton,
+.bookmarkbuttonNew {
   position: absolute;
   top: -2vh;
   right: -3vh;
@@ -82,7 +95,8 @@ p {
   border: none;
 }
 
-.hidden {
+.hidden,
+.hiddenNew {
   visibility: hidden;
 }
 
