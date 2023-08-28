@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/index.js" defer></script>
   </head>
   <body>
     <header>
@@ -15,28 +16,51 @@
         <article class="cards--primary">
           <tag class="tag tag--snappy">#snappy</tag>
           <tag class="tag tag--vicious">#vicious</tag>
-          <a href="bookmark.html#C1"
-            ><img
+          <button type="button" class="bookmarkbutton" data-js="bookmarkbutton">
+            <img
               class="cardbookmark"
-              src="../images/bookmark-white.png"
+              src="./images/bookmark-white.png"
               alt="bookmark"
-          /></a>
+            />
+            <img
+              class="cardbookmark hidden"
+              data-js="hidden"
+              src="./images/bookmark.png"
+              alt="bookmark"
+            />
+          </button>
           <p class="card__text">
             How long can the longest snake in the world become?
           </p>
-          <button class="button button__text button--one">
-            <a href="#">show me the answer</a>
+          <section class="cards--primary--answer" data-js="answer1" hidden>
+            <p class="card__answer">
+              The longest recorded reticulated python measured 10 meters
+            </p>
+          </section>
+          <button
+            type="button"
+            class="button button__text button--one"
+            data-js="answerButton"
+          >
+            show me the answer
           </button>
         </article>
         <article class="cards--secondary">
           <tag class="tag tag--snappy">#snappy</tag>
           <tag class="tag tag--vicious">#vicious</tag>
-          <a href="bookmark.html#C2"
-            ><img
+          <button type="button" class="bookmarkbutton" data-js="bookmarkbutton">
+            <img
               class="cardbookmark"
-              src="../images/bookmark-white.png"
+              src="./images/bookmark-white.png"
               alt="bookmark"
-          /></a>
+            />
+            <img
+              class="cardbookmark hidden"
+              data-js="hidden"
+              src="./images/bookmark.png"
+              alt="bookmark"
+            />
+          </button>
           <p class="card__text">Why do snakes have a splitted tongue?</p>
           <button class="button button__text button--two">
             <a href="#">show me the answer</a>
@@ -45,12 +69,19 @@
         <article class="cards--third">
           <tag class="tag tag--snappy">#snappy</tag>
           <tag class="tag tag--vicious">#vicious</tag>
-          <a href="bookmark.html#C3"
-            ><img
+          <button type="button" class="bookmarkbutton" data-js="bookmarkbutton">
+            <img
               class="cardbookmark"
-              src="../images/bookmark-white.png"
+              src="./images/bookmark-white.png"
               alt="bookmark"
-          /></a>
+            />
+            <img
+              class="cardbookmark hidden"
+              data-js="hidden"
+              src="./images/bookmark.png"
+              alt="bookmark"
+            />
+          </button>
           <p class="card__text">
             What is the smallest snake that exists called?
           </p>
@@ -68,12 +99,18 @@
         <a href="bookmark.html" class="link" aria-label="click to bookmarks"
           ><img
             class="nav-icons nav-icons--bookmarks"
-            src="../images/bookmark.png"
+            src="./images/bookmark.png"
         /></a>
         <a href="profile.html" class="link" aria-label="click to user profile"
           ><img
             class="nav-icons nav-icons--profile"
-            src="../images/profile-user.png"
+            src="./images/profile-user.png"
+        /></a>
+        <a
+          href="form.html"
+          class="link"
+          aria-label="click to form for creating questions"
+          ><img class="nav-icons nav-icons--form" src="./images/plus.png"
         /></a>
       </nav>
     </footer>
